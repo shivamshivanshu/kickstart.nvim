@@ -819,3 +819,5 @@ require('lazy').setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+-- [ Custom Configs]
+vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true })
